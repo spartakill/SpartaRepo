@@ -1,0 +1,12 @@
+Index: practice.md.txt
+===================================================================
+diff --git a/practice.md.txt b/practice.md.txt
+deleted file mode 100644
+--- a/practice.md.txt	(revision 375bbe61a73725ce9dbc8d7f98f00965b635eb86)
++++ /dev/null	(revision 375bbe61a73725ce9dbc8d7f98f00965b635eb86)
+@@ -1,5 +0,0 @@
+-# Killian Hughes :wave:
+-
+-## Welcome to my Repo
+----
+-## :book: About me
