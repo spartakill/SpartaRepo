@@ -10,8 +10,11 @@ class Country:
         self.language = language
 
     def print(self):
-        print(f'Country Name: {self.country_name} Continent: {self.continent} Climate: {self.climate} Language: {self.language}')
+        print(f'Country Name: {self.country_name}\nContinent: {self.continent}\nClimate: {self.climate}\nLanguage: {self.language}')
 
+Country1 = Country("England", "Europe", "Meh", "English")
+
+Country1.print()
 
 
 print("\nQ1b\n")
