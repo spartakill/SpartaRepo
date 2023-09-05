@@ -1,10 +1,3 @@
-import json
-import requests
-
-# gen_1 = requests.get("https://pokeapi.co/api/v2/generation/1/")
-# gen_1_str = json.dumps(gen_1)
-# print(gen_1.json())
-
 
 # def pokemon_json_maker(pokemon):
 #     pokemon_json = {}
@@ -37,6 +30,10 @@ import requests
 # squirtle = squirtle_req.json()
 # bulbasaur = bulbasaur_req.json()
 # charmander = charmander_req.json()
+
+import json
+import requests
+
 def json_file_maker(pokemon, file_name): # funtion to create a json file of pokemon using .dump
     with open(f"{file_name}", "w") as jsonfile:
         json.dump(pokemon, jsonfile)
