@@ -4,23 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca2434cf-f99d-4695-bae2-7952321d13c2" name="Changes" comment="Streaming all repos into main one">
-      <change afterPath="$PROJECT_DIR$/CSV Python/imdbtitles.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSV Python/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSV Python/new_imdb_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSV Python/new_user_details.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSON Python/JSON.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSON Python/new_json_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokemon/bulbasaur.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokemon/charmander.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokemon/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokemon/pikachu.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokemon/squirtle.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokemon/zapdos.json" afterDir="false" />
+    <list default="true" id="ca2434cf-f99d-4695-bae2-7952321d13c2" name="Changes" comment="Pokemon API coding challenge. Functions for API request GET and poke_info created">
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Numpy and Pandas/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Untitled.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_and_pandas/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_and_pandas/order.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CSV Python/order.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_and_pandas/user_details.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV Python/user_details.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +26,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;spartakill&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="677b1995-abba-4562-b011-d5b28c0becad" />
+        <option name="url" value="https://github.com/spartakill/SpartaRepo.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,6 +61,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/killi/SpartaRepo",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
@@ -111,7 +115,23 @@
       <option name="project" value="LOCAL" />
       <updated>1693826861867</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Streaming all repos into main one">
+      <option name="closed" value="true" />
+      <created>1693928210414</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693928210414</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Pokemon API coding challenge. Functions for API request GET and poke_info created">
+      <option name="closed" value="true" />
+      <created>1693928466609</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693928466609</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -121,6 +141,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ClassesQuestions initial commit" />
     <MESSAGE value="Streaming all repos into main one" />
-    <option name="LAST_COMMIT_MESSAGE" value="Streaming all repos into main one" />
+    <MESSAGE value="Pokemon API coding challenge. Functions for API request GET and poke_info created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pokemon API coding challenge. Functions for API request GET and poke_info created" />
   </component>
 </project>

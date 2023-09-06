@@ -46,7 +46,7 @@ def pokemon_get(pokemon_name: str) -> dict:
     json_file_maker(pokemon_dict, f"{pokemon_name}.json")
 
 # Function that takes a pokemons name and searches the PokeAPI and returns a dictionary of all JSON data
-
+# call upon function and insert pokemons name
 # pokemon_get("zapdos")
 
 def poke_info(pokemon_json_file: dict) -> dict:
@@ -66,3 +66,11 @@ charmander_info = poke_info("charmander.json")
 bulbasaur_info = poke_info("bulbasaur.json")
 pikachu_info = poke_info("pikachu.json")
 zapdos_info = poke_info("zapdos.json")
+
+"""
+
+try add some more functionality
+add a battle against team rocket
+find out how to assign more moves to a pokemon and both its typings
+
+"""
