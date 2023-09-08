@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca2434cf-f99d-4695-bae2-7952321d13c2" name="Changes" comment="Pokemon API coding challenge. Functions for API request GET and poke_info created">
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numpy and Pandas/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Untitled.ipynb" afterDir="false" />
+    <list default="true" id="ca2434cf-f99d-4695-bae2-7952321d13c2" name="Changes" comment="Seaborn, pandas, numpy, jupiter lab. Attempting to draw insights into a titanic dataframe using pandas functions.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokemon/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,17 +51,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/killi/SpartaRepo",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/killi/SpartaRepo&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\killi\SpartaRepo\Python_and_pandas" />
@@ -131,7 +127,23 @@
       <option name="project" value="LOCAL" />
       <updated>1693928466609</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Seaborn, pandas, numpy, jupiter lab. Attempting to draw insights into a titanic dataframe using pandas functions.">
+      <option name="closed" value="true" />
+      <created>1694015409775</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694015409775</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Seaborn, pandas, numpy, jupiter lab. Attempting to draw insights into a titanic dataframe using pandas functions.">
+      <option name="closed" value="true" />
+      <created>1694015418656</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694015418656</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -142,6 +154,7 @@
     <MESSAGE value="ClassesQuestions initial commit" />
     <MESSAGE value="Streaming all repos into main one" />
     <MESSAGE value="Pokemon API coding challenge. Functions for API request GET and poke_info created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pokemon API coding challenge. Functions for API request GET and poke_info created" />
+    <MESSAGE value="Seaborn, pandas, numpy, jupiter lab. Attempting to draw insights into a titanic dataframe using pandas functions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Seaborn, pandas, numpy, jupiter lab. Attempting to draw insights into a titanic dataframe using pandas functions." />
   </component>
 </project>
