@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca2434cf-f99d-4695-bae2-7952321d13c2" name="Changes" comment="Seaborn, pandas, numpy, jupiter lab. Attempting to draw insights into a titanic dataframe using pandas functions.">
+    <list default="true" id="ca2434cf-f99d-4695-bae2-7952321d13c2" name="Changes" comment="08/09/2023 New Commit, uploading current work, which included Video Games Sales Report and further work in Jupyter Notebook on data visualisation.">
+      <change afterPath="$PROJECT_DIR$/UnitTesting/PyTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTesting/UnitTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTesting/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SpartaRepo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SpartaRepo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,17 +55,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/killi/SpartaRepo&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/killi/SpartaRepo",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\killi\SpartaRepo\Python_and_pandas" />
@@ -143,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694015418656</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="08/09/2023 New Commit, uploading current work, which included Video Games Sales Report and further work in Jupyter Notebook on data visualisation.">
+      <option name="closed" value="true" />
+      <created>1694178167047</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694178167047</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -155,6 +167,7 @@
     <MESSAGE value="Streaming all repos into main one" />
     <MESSAGE value="Pokemon API coding challenge. Functions for API request GET and poke_info created" />
     <MESSAGE value="Seaborn, pandas, numpy, jupiter lab. Attempting to draw insights into a titanic dataframe using pandas functions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Seaborn, pandas, numpy, jupiter lab. Attempting to draw insights into a titanic dataframe using pandas functions." />
+    <MESSAGE value="08/09/2023 New Commit, uploading current work, which included Video Games Sales Report and further work in Jupyter Notebook on data visualisation." />
+    <option name="LAST_COMMIT_MESSAGE" value="08/09/2023 New Commit, uploading current work, which included Video Games Sales Report and further work in Jupyter Notebook on data visualisation." />
   </component>
 </project>
