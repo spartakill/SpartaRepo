@@ -5,16 +5,14 @@ class Table:
         self.people = people
 
 
-    def order(self, item, price, quantity):
-        order_details = {"item": item, "price": price, "quantity": quantity}
-        self.bill.append(order_details)
-        return self.bill
-
-    def order_no_quantity(self, item, price):
-        for x in range(len(self.bill)):
-            if self.bill[x]['item'] == item and self.bill[x]['price'] == price:
-                self.bill[x]['quantity'] += 1
-                return self.bill
+    def order(self, item, price, quantity=1):
+        ordered_item = False
+        for x in self.bill: # x refers to an existing item
+            if item == x["item"] and price == x["price"]:
+                x["quantity"] += quantity
+                ordered_item = True
+        if not ordered_item:
+            self.bill.append({"item": item, "price": price, "quantity": quantity})
 
     def remove(self, item, price, quantity):
         if len(self.bill) == 0:
@@ -36,20 +34,18 @@ class Table:
         subtotal = 0
         for order in self.bill:
             subtotal += order["price"] * order["quantity"]
-            subtotal = round(subtotal, 2)
         return subtotal
 
-    def get_total(self, charge):
+    def get_total(self, charge = 0.1):
         service = charge * Table.get_subtotal(self)
-        service = round(service, 2)
         final = service + Table.get_subtotal(self)
-        final = round(final, 2)
-        total = {"Sub Total": f"£{Table.get_subtotal(self)}", "Service Charge": f"£{service}", "Total": f"£{final}"}
+        total = {"Sub Total": f"£{'{:.2f}'.format(Table.get_subtotal(self))}", "Service Charge": f"£{'{:.2f}'.format(service)}", "Total": f"£{'{:.2f}'.format(final)}"}
         return total
 
     def split_bill(self):
         split_bill = 0
-        split_bill = Table.get_subtotal(self)/ self.people
-        split_bill = round(split_bill/ 2)
+        split_bill = self.get_subtotal()/self.people
+        split_bill = float("{:.2f}".format(split_bill))
         return split_bill
+
 
