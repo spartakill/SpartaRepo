@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-09-18T14:02:10.072Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.5" etag="wphOYsVkfKgjbVKIDWe0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-18T14:23:34.412Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="U2O_f_RtfvfJpqctid4w" version="21.7.5" type="github">
   <diagram name="Page-1" id="RuVPphLZ3CsaCb0_3JvY">
-    <mxGraphModel>
+    <mxGraphModel dx="792" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ib8wfYTj7smqtKdykhyK-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ib8wfYTj7smqtKdykhyK-1" target="ib8wfYTj7smqtKdykhyK-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ib8wfYTj7smqtKdykhyK-1" value="Big Data Source" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ib8wfYTj7smqtKdykhyK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ib8wfYTj7smqtKdykhyK-7" target="ib8wfYTj7smqtKdykhyK-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ib8wfYTj7smqtKdykhyK-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ib8wfYTj7smqtKdykhyK-10" target="ib8wfYTj7smqtKdykhyK-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ib8wfYTj7smqtKdykhyK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ib8wfYTj7smqtKdykhyK-12" target="ib8wfYTj7smqtKdykhyK-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ib8wfYTj7smqtKdykhyK-13" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Data Visualisation Layer:&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Power BI&lt;/li&gt;&lt;li&gt;Plot.ly&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="590" y="430" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ib8wfYTj7smqtKdykhyK-16" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="340" y="510" width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ib8wfYTj7smqtKdykhyK-8" value="Data Storage Layer:&lt;br&gt;&lt;ul&gt;&lt;li&gt;S3&lt;/li&gt;&lt;li&gt;HDFS&lt;/li&gt;&lt;li&gt;Apache Hive&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="ib8wfYTj7smqtKdykhyK-16">
+          <mxGeometry y="120" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ib8wfYTj7smqtKdykhyK-10" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Data Processing Layer:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;Batch&lt;/li&gt;&lt;li&gt;Real Time&amp;nbsp;&lt;/li&gt;&lt;li&gt;Hybrid&lt;/li&gt;&lt;li&gt;MapReduce&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="ib8wfYTj7smqtKdykhyK-16">
+          <mxGeometry width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ib8wfYTj7smqtKdykhyK-7" value="Data Ingestion Layer:&lt;br&gt;&lt;ul&gt;&lt;li&gt;Prioritises sources&lt;/li&gt;&lt;li&gt;Validating Data&lt;/li&gt;&lt;li&gt;Routes to the best location&lt;/li&gt;&lt;li&gt;Batch or Continuous&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="611.52" width="160" height="128.48" as="geometry" />
+        </mxCell>
+        <mxCell id="ib8wfYTj7smqtKdykhyK-21" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Data Collection Layer:&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Surveys&lt;/li&gt;&lt;li&gt;IoT&lt;/li&gt;&lt;li&gt;AI&lt;/li&gt;&lt;li&gt;Primary Data&lt;/li&gt;&lt;li&gt;Census&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="470" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ib8wfYTj7smqtKdykhyK-11" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Data Query Layer:&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Apache Hive&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Stinger&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Apache Drill&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Spark SQL&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="260" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ib8wfYTj7smqtKdykhyK-12" value="Analytics Engine:&lt;br&gt;&lt;ul&gt;&lt;li&gt;Apache Spark&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="260" width="120" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
