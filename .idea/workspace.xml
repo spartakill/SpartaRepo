@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca2434cf-f99d-4695-bae2-7952321d13c2" name="Changes" comment="12/09/2023 - Restaurant TDD task, updates on ordering system and formatting of floats.">
-      <change afterPath="$PROJECT_DIR$/mongodb/mongodb_intro.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ca2434cf-f99d-4695-bae2-7952321d13c2" name="Changes" comment="12/09/2023 - Restaurant TDD task, updates on ordering system and formatting of floats." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
