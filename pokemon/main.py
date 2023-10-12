@@ -47,30 +47,30 @@ def pokemon_get(pokemon_name: str) -> dict:
 
 # Function that takes a pokemons name and searches the PokeAPI and returns a dictionary of all JSON data
 # call upon function and insert pokemons name
-# pokemon_get("zapdos")
+pokemon_get("meowth")
 
-def poke_info(pokemon_json_file: dict) -> dict:
-    with open(f"{pokemon_json_file}", "r") as read_file:
-        data = json.load(read_file)
-        poke_info = {
-        "ability" : data["abilities"][0]["ability"]["name"],
-        "moves" : data["moves"][0]["move"]["name"],
-        "types" : data["types"][0]["type"]["name"]
-        }
-        print(poke_info)
+# def poke_info(pokemon_json_file: dict) -> dict:
+#     with open(f"{pokemon_json_file}", "r") as read_file:
+#         data = json.load(read_file)
+#         poke_info = {
+#         "ability" : data["abilities"][0]["ability"]["name"],
+#         "moves" : data["moves"][0]["move"]["name"],
+#         "types" : data["types"][0]["type"]["name"]
+#         }
+#         print(poke_info)
 
 # function that returns a dictionary of a pokemons first ability, move and type
 
-squirtle_info = poke_info("squirtle.json")
-charmander_info = poke_info("charmander.json")
-bulbasaur_info = poke_info("bulbasaur.json")
-pikachu_info = poke_info("pikachu.json")
-zapdos_info = poke_info("zapdos.json")
+# squirtle_info = poke_info("squirtle.json")
+# charmander_info = poke_info("charmander.json")
+# bulbasaur_info = poke_info("bulbasaur.json")
+# pikachu_info = poke_info("pikachu.json")
+# zapdos_info = poke_info("zapdos.json")
+#
+# """
 
-"""
-
-try add some more functionality
-add a battle against team rocket
-find out how to assign more moves to a pokemon and both its typings
-
-"""
+# try add some more functionality
+# add a battle against team rocket
+# find out how to assign more moves to a pokemon and both its typings
+#
+# """
