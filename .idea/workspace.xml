@@ -4,22 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca2434cf-f99d-4695-bae2-7952321d13c2" name="Changes" comment="12/09/2023 - Moving the ReadMe File back outside of a directory">
-      <change afterPath="$PROJECT_DIR$/CountryAPI_Project/CountryAPI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CountryAPI_Project/all.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aws_boto3/academy_df.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aws_boto3/boto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aws_boto3/new_json.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_project/academy_csvs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_project/academy_df.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_project/talent_csvs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_project/talent_df.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messing_around.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokemon/meowth.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql_in_python/sql_in_python.py" afterDir="false" />
+    <list default="true" id="ca2434cf-f99d-4695-bae2-7952321d13c2" name="Changes" comment="12/10/2023 - Working on a Country Guessing game using a County API, the game works but I want to add more functionality to it!">
+      <change afterPath="$PROJECT_DIR$/General Knowledge Game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LifeOnMars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/number_guessing_game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokemon/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_in_python/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_in_python/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CountryAPI_Project/CountryAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/CountryAPI_Project/CountryAPI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws_boto3/academy_df.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/aws_boto3/academy_df.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695386494037</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="12/10/2023 - Working on a Country Guessing game using a County API, the game works but I want to add more functionality to it!">
+      <option name="closed" value="true" />
+      <created>1697121599614</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1697121599614</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -286,6 +287,7 @@
     <MESSAGE value="12/09/2023 - Restaurant TDD task, updates on ordering system and formatting of floats." />
     <MESSAGE value="12/09/2023 - Rearranging and refactoring a few files into different directories, working on SQL in python currently." />
     <MESSAGE value="12/09/2023 - Moving the ReadMe File back outside of a directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="12/09/2023 - Moving the ReadMe File back outside of a directory" />
+    <MESSAGE value="12/10/2023 - Working on a Country Guessing game using a County API, the game works but I want to add more functionality to it!" />
+    <option name="LAST_COMMIT_MESSAGE" value="12/10/2023 - Working on a Country Guessing game using a County API, the game works but I want to add more functionality to it!" />
   </component>
 </project>

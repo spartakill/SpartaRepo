@@ -31,10 +31,8 @@ def country_info(json_file: str) -> list:
 with open('all.json', 'r') as info:
     info2 = json.load(info)
 
-# Create an empty list to store dictionaries for each country
 countries = []
 
-# Iterate through the JSON data and create dictionaries with the specified information
 for country_data in info2:
     country_name_dict = country_data.get('name', {})  # Extract the 'name' dictionary
     country_name = country_name_dict.get('common', 'Unknown')  # Extract the 'common' key or use 'Unknown' as a default
@@ -63,13 +61,8 @@ for country_data in info2:
         countries.append(country_info)
 
 
-import random
-
-
-# Shuffle the list of dictionaries to randomize the order
 random.shuffle(countries)
 
-max_guesses = 5  # Set the maximum number of guesses
 
 for country_data in countries:
     revealed_info = []  # Store the revealed information step by step
